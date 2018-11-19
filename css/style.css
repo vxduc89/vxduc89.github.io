@@ -1,0 +1,18 @@
+*{box-sizing: border-box;} 
+#main-menu a {
+    font-size: 30px;
+    background-color: whitesmoke;
+    text-decoration: none;
+
+    }
+#main-menu a:hover {color: orangered}
+#main-menu .active {color: black; font-weight: bold}
+
+img {max-width: 100%;}
+
+.wrap {
+    max-width: 1000px;
+    margin: auto;
+}
+.sp:hover img{transform: scale(1.2)}
+.sp{overflow: hidden;}
