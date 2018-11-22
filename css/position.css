@@ -1,0 +1,18 @@
+*{box-sizing: border-box;} 
+h1 {
+    background-color: antiquewhite;
+    font-size: 24px;
+    font-style: inherit;
+    text-align: center
+}
+.sp {
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    width: 32.799%;
+    border: 1.5px solid black;
+}
+.sp img {
+    max-width: 100%;
+}
