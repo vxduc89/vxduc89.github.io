@@ -36,8 +36,8 @@ position: relative;}
     font-size: 1vw;}
 #call {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 10vw;
+    bottom: 8vw;
     width: 5%;
 }
 #call img {width: 100%}
