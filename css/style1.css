@@ -36,9 +36,9 @@ position: relative;}
     font-size: 1vw;}
 #call {
     position: fixed;
-    right: 10vw;
-    bottom: 8vw;
-    width: 5%;
+    right: 30px;
+    bottom: 30px;
+    max-width: 15px;
 }
 #call img {width: 100%}
 h1 {
