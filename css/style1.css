@@ -1,35 +1,49 @@
-*{box-sizing: border-box;} 
-#main-menu a {
-    font-size: 30px;
-    background-color: whitesmoke;
-    text-decoration: none;
-    }
-#main-menu a:hover {color: orangered}
-#main-menu .active {color: black; font-weight: bold}
-#main-menu {position: relative;}
-
-img {max-width: 100%;}
-
+*{box-sizing: border-box;}
 .wrap {
     max-width: 1000px;
-    margin: auto;
+    margin: 0px auto;
 }
+#banner {position: relative;}
+#banner img {width: 100%}
 .sp:hover img{transform: scale(1.2)}
-.sp{overflow: hidden;}
-.content {width: 100%}
-
+.sp {float: left;
+    width: 33.3333333%;
+    overflow: hidden;
+}
+.sp img {width: 100%;
+    
+}
+.prandco {width:100%;
+position: relative;}
 .products {
-width: 12%;
-border: 2px black solid;
-float: left;
-margin-right: 5px;
-position: absolute;
-left: 7px;
-font-weight: bold;
-line-height: 1.5 }
+    background-color: rgba(red, green, rgb(0, 255, 200));
+    width: 20%;
+    float: left;
+    position: relative;
+}
+.content {float: right;
+    position: relative;
+    width: 80%;
+    margin-top: 0px;
+    height: 100%;
+    }
+.content img {width: 100%;
+    height: auto;
+    float: left;
+    }
+.pr {font-weight: bold;
+    line-height: 1.5;
+    font-size: 1vw;}
 #call {
     position: fixed;
     right: 30px;
     bottom: 30px;
     width: 5%;
+}
+#call img {width: 100%}
+h1 {
+    background-color: antiquewhite;
+    font-size: 2vw;
+    font-style: inherit;
+    text-align: center
 }
