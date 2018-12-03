@@ -1,0 +1,28 @@
+h1 {
+    font-size: 32px;
+    font-style: bold;
+    color: blue
+}
+#page {max-width: 1200px;
+margin: 0px auto}
+header {text-align: center;
+font-family: Brandon-Grotesque, "Verdana", "Geneva", sans-serif;
+font-size: 48px;
+text-transform: uppercase;
+font-weight: bold;
+color: blue}
+.content {float: left;
+width: 80%;
+margin-right: 5px
+}
+.content p {line-height: 1.5;
+font-size: 18px;
+text-align: justify}
+.quangcao {float: left;
+width: 19%;
+border: 0.5px black solid;
+height: -webkit-fill-available;
+overflow:auto }
+.quangcao p {text-align: center;
+font-size: x-large;}
+.clear {clear: both;}
